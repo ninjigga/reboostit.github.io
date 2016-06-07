@@ -65,9 +65,16 @@
               <h4 class="modal-title text-center">Get started</h4>
             </div>
             <div class="modal-body">
-              <form action="#" method="post">
+
+<!-- <form id="contactform" action="//formspree.io/info@reboost.it" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="submit" value="Send">
+</form> -->
+              <form action="https://formspree.io/info@reboost.it" method="post">
                 <div class="form-group">
-                  <input id="email_modal" type="text" placeholder="name@company.com" class="form-control">
+                  <input id="email_modal" type="text" placeholder="name@email.com" name="_replyto" class="form-control">
                 </div>
                 <p class="text-center">
                   <button class="btn btn-primary"><i class="pe-7s-magic-wand"></i> Sign up</button>
